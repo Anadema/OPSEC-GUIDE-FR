@@ -3,7 +3,7 @@
 ## 📖 **Introduction**
 L'**OPSEC (Operational Security)**, ou **Sécurité Opérationnelle**, est l'ensemble des pratiques qui protègent vos informations sensibles et votre identité lors d'enquêtes en **OSINT (Open Source Intelligence)**. Dans un monde où les données publiques sont abondantes, une mauvaise OPSEC peut exposer vos méthodes, votre localisation ou même menacer votre sécurité physique. Ce guide, conçu pour les débutants comme les experts, s'inspire de ressources expertes et vise à vous armer d'une mentalité défensive. 
 
-**Pourquoi l'OPSEC ?** Elle anticipe les risques : de la simple fuite IP à une traque par des acteurs malveillants (criminels, États). Adoptez un **modèle de menace** personnalisé et itérez constamment. [Lisez plus sur les bases OPSEC](https://www.dhs.gov/sites/default/files/publications/OPSEC%20Guide.pdf) (PDF du DHS).
+**Pourquoi l'OPSEC ?** Elle anticipe les risques : de la simple fuite IP à une traque par des acteurs malveillants (criminels, États). Adoptez un **modèle de menace** personnalisé et itérez constamment. [Lisez plus sur les bases OPSEC](https://www.dhs.gov/sites/default/files/2024-11/24_110824_identify-theft-508.pdf) (PDF du DHS).
 
 ---
 
