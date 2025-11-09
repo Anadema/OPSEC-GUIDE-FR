@@ -1,4 +1,10 @@
 # 🔒 **Guide OPSEC pour l'OSINT** 🔒
+<br><br>
+
+<p align="center">
+  <img src="picture/ops.jpg" width="754" style="background-color:black; padding:2px;">
+</p>
+<br><br>
 
 ## 📖 **Introduction**
 L'**OPSEC (Operational Security)**, ou **Sécurité Opérationnelle**, est l'ensemble des pratiques qui protègent vos informations sensibles et votre identité lors d'enquêtes en **OSINT (Open Source Intelligence)**. Dans un monde où les données publiques sont abondantes, une mauvaise OPSEC peut exposer vos méthodes, votre localisation ou même menacer votre sécurité physique. Ce guide, conçu pour les débutants comme les experts, s'inspire de ressources expertes et vise à vous armer d'une mentalité défensive. 
