@@ -1,4 +1,4 @@
-# 🔒 **Guide OPSEC pour l'OSINT** 🔒
+# 🔒 **OPSEC-GUIDE-FR** 🔒
 <br><br>
 
 <p align="center">
