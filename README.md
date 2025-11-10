@@ -295,17 +295,18 @@ Le processus OPSEC (Operations Security) est une méthode systématique pour ide
 | 5. Appliquer les contre-mesures | Mettre en place des protections. | Réduire les risques résiduels. |
 
 Ce processus est itératif et doit être revu régulièrement, car les menaces évoluent (par exemple, phishing en crypto ou exposition sur les réseaux sociaux).
+<br><br>
 
-Voici trois illustrations pour visualiser le processus. Intégrez les liens des images ci-dessous.
+Voici trois illustrations pour visualiser le processus. 
 
 1. **Diagramme du Flux OPSEC Complet** : Une vue d'ensemble du cycle de décision.  
-   ![Diagramme du Flux OPSEC Complet](picture/opsec_flow_1.jpg) <!-- Lien à ajouter ici – e.g., flowchart OPSEC cycle -->
+   ![Diagramme du Flux OPSEC Complet](picture/opsec_flow_1.jpg) 
 
 2. **Identification des Informations Critiques** : Schéma public/private.  
-   ![Identification des Informations Critiques](picture/opsec_flow_3.jpg) <!-- Lien à ajouter ici – e.g., diagram critical info OPSEC -->
+   ![Identification des Informations Critiques](picture/opsec_flow_3.jpg) 
 
 3. **Matrice d'Évaluation des Risques** : Visualisation 5x5 pour prioriser.  
-   ![Matrice d'Évaluation des Risques](picture/opsec_flow_2.jpg) <!-- Lien à ajouter ici – e.g., risk matrix OPSEC -->
+   ![Matrice d'Évaluation des Risques](picture/opsec_flow_2.jpg) 
 ---
 <br><br>
 
