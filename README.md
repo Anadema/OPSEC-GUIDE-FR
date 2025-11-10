@@ -12,208 +12,293 @@ L'**OPSEC (Operational Security)**, ou **Sécurité Opérationnelle**, est l'ens
 **Pourquoi l'OPSEC ?** Elle anticipe les risques : de la simple fuite IP à une traque par des acteurs malveillants (criminels, États). Adoptez un **modèle de menace** personnalisé et itérez constamment. [Lisez plus sur les bases OPSEC](https://www.dhs.gov/sites/default/files/2024-11/24_110824_identify-theft-508.pdf) (PDF du DHS).
 
 ---
+<br><br>
 
-## 🎯 **1. Définir votre Modèle de Menace**
-Avant de plonger dans une enquête, cartographiez les dangers. C'est la fondation de toute OPSEC !
+<p>
+🇫🇷 <strong>OPSEC-HUB-FR</strong> constitue une plateforme stratégique à l'intention des apprenants et novices en sécurité opérationnelle : elle centralise des ressources techniques, des protocoles éprouvés et des tutoriels structurés, principalement en français avec des extensions en anglais, pour maîtriser la sécurisation des données critiques, anticiper les vulnérabilités de traçabilité et implémenter des mesures OPSEC de manière responsable, méthodique et formatrice.<br><br>
+  
+🇬🇧 <strong>OPSEC-HUB-FR</strong> serves as a strategic platform for learners and newcomers in operational security: it consolidates technical resources, proven protocols, and structured tutorials, primarily in French with English extensions, to master the safeguarding of critical data, anticipate traceability vulnerabilities, and implement OPSEC measures in a responsible, methodical, and educational framework.<br><br>
 
-### Étapes Clés 🚀
-1. **Identifiez l'adversaire** : Un hacker amateur ou un APT étatique ? Utilisez [ce modèle MITRE ATT&CK](https://attack.mitre.org/) pour évaluer.
-2. **Protégez les actifs critiques** : IP, empreinte navigateur, métadonnées, habitudes de recherche.
-3. **Évaluez le niveau de risque** : 
-   - **Bas** : Recherche Google basique (VPN suffisant).
-   - **Moyen** : Réseaux sociaux (VM + extensions).
-   - **Haut** : Dark web (Tor + TAILS).
+🇷🇺 <strong>OPSEC-HUB-FR</strong> представляет собой стратегическую платформу для обучающихся и новичков в области оперативной безопасности: она консолидирует технические ресурсы, проверенные протоколы и структурированные руководства, в основном на французском с дополнениями на английском, чтобы освоить защиту критически важных данных, предвидеть уязвимости отслеживания и внедрять меры OPSEC ответственно, методично и в образовательном формате.<br><br>
 
-**Outil recommandé** : Créez une mindmap avec [MindMeister](https://www.mindmeister.com/) ou consultez [ce template OPSEC](https://github.com/OffcierCia/Crypto-OpSec-SelfGuard-RoadMap).
+🇮🇳 <strong>OPSEC-HUB-FR</strong> एक रणनीतिक मंच है जो सुरक्षा संचालन के सीखने वालों और नवागंतुकों के लिए है: यह तकनीकी संसाधनों, सिद्ध प्रोटोकॉल्स और संरचित ट्यूटोरियल्स को एकत्र करता है, मुख्य रूप से फ्रेंच में अंग्रेजी विस्तारों के साथ, महत्वपूर्ण डेटा की सुरक्षा को महारत हासिल करने, ट्रेसबिलिटी कमजोरियों की भविष्यवाणी करने और OPSEC उपायों को जिम्मेदारी से, व्यवस्थित और शैक्षिक ढांचे में लागू करने के लिए।
+</p>
+<br><br>
+<br><br>
 
-**Emoji Tip** : 🛡️ Pensez "bouclier" – adaptez à votre scénario !
+## 📑 Table des matières
+
+- [🛡️ OPSEC Ressources](#opsec-ressources)
+  - [✍️ Articles](#articles)
+  - [🧭 Méthodes](#methodes)
+  - [📚 Guides / PDF (FR/EN)](#guides-pdf)
+  - [🎥 Vidéos](#videos)
+  - [🔧 Outils](#tools)
+  - [🧰 Frameworks](#frameworks)
+  - [🔍 Autres Sources](#autre-sources)
+    
+- [🛡️ OPSEC Communauté](#opsec-communaute)
+  - [🇫🇷  Communautés FR](#communautes-fr)
+  - [🌍 Communautés EN](#communautes-en)
+    
+- [🛡️ OPSEC Formations](#opsec-formations)
+  - [🎓 Formations gratuites](#formations-gratuites)
+  - [💼 Formations / certifications payantes](#formations-payantes)
+  - [🕹️ Challenges](#challenges)
+    
+- [🛡️ OPSEC Jobs](#opsec-jobs)
+  - [🇫🇷 Entreprises françaises spécialisées en OPSEC](#entreprises-francaises)
+  - [🌍 Entreprises internationales spécialisées en OPSEC](#entreprises-internationales)
+  - [🏢 Recherche Emploi](#recherche-emploi)
+  - [🎖️ Bonus](#bonus)
+
+<br>
+
+<a id="opsec-ressources"></a>
+# 🛡️ OPSEC Ressources
+<br>
+
+<a id="articles"></a>
+## ✍️ Articles
+- [OpSec 101 : Guide pour débutants](https://opsec101.org/) – Introduction rationnelle au processus OPSEC.
+- [OPSEC in OSINT: Protecting Yourself While Investigating](https://sosintel.co.uk/opsec-in-osint-protecting-yourself-while-investigating/) – Intégration OPSEC et OSINT.
+- [You Leak More Data Than You Think: OPSEC Guide](https://www.reddit.com/r/OSINT/comments/1iij7su/you_leak_more_data_than_you_think_opsec_guide_to/) – Fuites courantes et conseils.
+- [Most OPSEC Advice is Surface Level: Deeper Guide](https://www.reddit.com/r/opsec/comments/1ij8nyn/most_opsec_advice_is_surface_level_heres_a_guide/) – Au-delà des bases.
+- [OpSec Oversights: How Cybercrooks Get Caught](https://www.theregister.com/2025/07/01/terrible_tales_of_opsec_oversights/) – Échecs célèbres.
+- [What Were Ross Ulbricht's Biggest Mistakes?](https://plasbit.com/blog/what-were-ross-ulbricht-biggest-mistakes) – Analyse des erreurs de Silk Road.
+- [Proactive Paranoia: AlphaBay Case](https://reallifemag.com/proactive-paranoia/) – Leçons d'Alexandre Cazes.
+- [OPSEC Introduction (187FW)](https://www.187fw.ang.af.mil/About/OPSEC/) – Importance de l'OPSEC pour protéger les informations critiques.
+---
+<br>
+
+<a id="methodes"></a>
+## 🧭 Méthodes
+- [Principes Fondamentaux de l'OPSEC (Cycle NSA)](https://opsec101.org/#the-opsec-process) – 5 étapes : Identifier, Détecter, Évaluer, Analyser, Appliquer.
+- [Surveillance Self-Defense Guide (EFF)](https://ssd.eff.org/) – Guide complet contre la surveillance.
+- [OPSEC & PRIVACY HANDBOOK](https://medium.com/@varppi/opsec-privacy-handbook-5e0a012c58f6) – Manuel pratique.
+- [Minimum Viable OPSEC](https://plainshift.io/blog/minimum-viable-opsec/) – OPSEC minimal pour devs crypto.
+- [OPSEC: More Than a Checklist](https://www.afmc.af.mil/News/Article-Display/Article/4206156/opsec-more-than-a-checklist/) – Au-delà des listes.
+- [OPSEC Policy Checklist (DNI)](https://www.dni.gov/files/NCSC/documents/nittf/OPSEC_Program_Policy_Checklist.pdf) – Checklist officielle.
+- [OPSEC Guide (Tilde Wiki)](https://wiki.tilde.fun/guide/opsec) – Processus OPSEC en 5 étapes, réponse à un compromis et conseils mobiles.
+---
+<br>
+
+<a id="guides-pdf"></a>
+## 📚 Guides / PDF (FR/EN)
+- [Identity Theft Prevention (DHS PDF)](https://www.dhs.gov/sites/default/files/2024-11/24_110824_identify-theft-508.pdf) – Prévention des vols d'identité (EN).
+- [OPSEC Fundamentals for Remote Red Teams (PDF)](https://www.blackhillsinfosec.com/wp-content/uploads/2021/03/SLIDES_OPSECFundamentalsRemoteRedTeams-1.pdf) – Bases pour équipes distantes.
+- [Crypto-OpSec-SelfGuard-RoadMap (GitHub Guide)](https://github.com/OffcierCia/Crypto-OpSec-SelfGuard-RoadMap) – Roadmap crypto et OPSEC, avec 25 problèmes et contre-mesures.
+- [EFF Surveillance Self-Defense Basics](https://ssd.eff.org/module-categories/basics) – Bases de défense.
+- [OPSEC Guide (Zycher)](https://whos-zycher.github.io/opsec-guide/) – Guide complet avec checklists VM.
+- [OpSec Guide (Scrut1ny)](https://github.com/Scrut1ny/OpSec-Guide) – Insights pour privacy, anonymat et sécurité personnelle.
+- [The Guide To Online Anonymity (THGTOA)](https://github.com/Anon-Planet/thgtoa) – Guide complet pour anonymat en ligne et OPSEC.
+- [OPSEC Academy README](https://github.com/opsecacademy/opsecacademy.github.io/blob/main/README.md) – Aperçu des ressources éducatives OPSEC.
+---
+<br>
+
+<a id="videos"></a>
+## 🎥 Vidéos & Podcasts
+- [OPSEC Basics Explained](https://www.youtube.com/watch?v=oV07c-1EDHs) – Introduction aux bases.
+- [Advanced OPSEC Techniques](https://www.youtube.com/watch?v=qsN44n0AQD8) – Techniques avancées.
+- [OPSEC in Practice](https://www.youtube.com/watch?v=6OTVOUicKOI) – Exemples pratiques.
+- [Dark Web OPSEC Rules](https://www.youtube.com/watch?v=teRYkWkn1sU) – Règles pour le Dark Web.
+- [Crypto OPSEC Roadmap](https://www.youtube.com/watch?v=StSLxFbVz0M) – Roadmap crypto.
+- [EFF Surveillance Self-Defense](https://www.youtube.com/watch?v=u5Lv_HXICpo) – Guide EFF en vidéo.
+- [Tails OS Tutorial](https://www.youtube.com/results?search_query=tails+os+opsec) – Tutoriels Tails.
+---
+<br>
+
+<a id="tools"></a>
+## 🔧 Outils
+**Configuration Environnement :**
+- [Tails OS](https://tails.net/) – Système portable amnésique pour isolation.
+- [VeraCrypt](https://www.veracrypt.fr/) – Chiffrement de disques.
+- [VirtualBox](https://www.virtualbox.org/) – Machines virtuelles pour isolation.
+- [WSUS Offline](https://wsusoffline.net/) – Mises à jour offline.
+- [HiddenVM](https://github.com/aforensics/HiddenVM) – Lance VMs dans Tails pour anti-forensique et deniability.
+- [Awesome GrapheneOS Guide](https://github.com/iAnonymous3000/awesome-grapheneos-guide) – Guide pour OS mobile privacy-focused (GrapheneOS).
+
+**Navigation & Browser :**
+- [Brave Browser](https://brave.com/) – Bloque trackers par défaut.
+- [Tor Browser](https://www.torproject.org/download/) – Anonymat via Tor.
+- Extensions : [HTTPS Everywhere (EFF)](https://www.eff.org/https-everywhere), [uBlock Origin](https://github.com/gorhill/uBlock), [Privacy Badger (EFF)](https://privacybadger.org/), [CanvasBlocker](https://add0n.com/canvas-blocker.html), [User-Agent Switcher](https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/).
+- Tests : [Cover Your Tracks (Panopticlick successor)](https://coveryourtracks.eff.org/), [AmIUnique](https://amiunique.org/), [BrowserLeaks](https://browserleaks.com/).
+
+**Masquage IP :**
+- [Mullvad VPN](https://mullvad.net/) – No-logs, paiement crypto.
+- [ProtonVPN](https://protonvpn.com/) – Gratuit/premium, open-source.
+- [Comparatif VPN OPSEC 2025](https://www.cnet.com/tech/services-and-software/best-vpn/) – NordVPN, Surfshark, etc.
+
+**Comptes & Identités :**
+- [Fake Name Generator](https://www.fakenamegenerator.com/) – Identités fictives.
+- [ThisPersonDoesNotExist](https://thispersondoesnotexist.com/) – Photos IA.
+- [ProtonMail](https://proton.me/mail) – Email chiffré.
+- [Temp Mail](https://temp-mail.org/) – Emails jetables.
+- [SMS-Activate](https://sms-activate.org/) – Numéros virtuels.
+- [KeePassXC](https://keepassxc.org/) – Gestionnaire de mots de passe.
+
+**Recherche & Métadonnées :**
+- [DuckDuckGo](https://duckduckgo.com/) – Moteur privé.
+- [Searx](https://searx.space/) – Métamoteur.
+- [Sherlock](https://github.com/sherlock-project/sherlock) – Recherche usernames.
+- [ExifTool](https://exiftool.org/) – Nettoyage métadonnées.
+
+**Communication :**
+- [Signal](https://signal.org/) – Messagerie E2EE.
+- [PGP/OpenPGP](https://www.openpgp.org/) – Chiffrement emails.
+
+**Autres :**
+- [MITRE ATT&CK](https://attack.mitre.org/) – Framework pour modéliser menaces.
+---
+<br>
+
+<a id="frameworks"></a>
+## 🧰 Frameworks
+- [OSINT Framework (pour OPSEC)](https://osintframework.com/) – Arbre d'outils, adapté à la détection de fuites.
+- [Crypto-OpSec Roadmap (MindMeister Integration)](https://github.com/OffcierCia/Crypto-OpSec-SelfGuard-RoadMap) – Visualisez ce roadmap avec [MindMeister](https://www.mindmeister.com/), un outil de mind mapping en ligne (GDPR-compliant, collaboration temps réel) pour organiser idées, processus et contre-mesures OPSEC.
+---
+<br>
+
+<a id="autre-sources"></a>
+## 🔍 Autres Sources
+- [OpSec Techniques](https://opsectechniques.com/) – Techniques avancées (contenu limité, focus sur cloaking).
+- [Basic OPSEC Tips for OSINT](https://www.osintcurio.us/2019/04/18/basic-opsec-tips-and-tricks-for-osint-researchers/index.htm) – Conseils pour chercheurs.
+---
+<br>
+
+<a id="opsec-communaute"></a>
+# 🛡️ OPSEC Communauté
+<br><br>
+
+<a id="communautes-fr"></a>
+## 🇫🇷 Communautés FR
+
+- **[r/opsec (Reddit FR threads)](https://www.reddit.com/r/opsec/search/?q=french)** 🟢 **Actif**  
+  Discussions OPSEC en français sur Reddit.  
+  Échanges sur outils et menaces locales.
+
+- **[Discord OPSEC FR (via Infosec FR)](https://discord.gg/search?q=opsec+fr)** 🟢 **Actif**  
+  Serveurs francophones sur privacy et OPSEC.  
+  Entraide pour configs VPN/VM.
 
 ---
+<br>
 
-## 🛡️ **2. Principes Fondamentaux de l'OPSEC**
-Suivez le cycle OPSEC en 5 étapes (inspiré du [manuel NSA](https://nsarchive2.gwu.edu/NSAEBB/NSAEBB436/docs/EBB-005.pdf)) :
+<a id="communautes-en"></a>
+## 🌍 Communautés EN
 
-1. **Identifier les infos critiques** 🔍 : IP, timezone, cookies, EXIF dans les images.
-2. **Détecter les menaces** ⚠️ : Acteurs motivés via [OSINT Framework](https://osintframework.com/).
-3. **Évaluer les vulnérabilités** 🔍 : Testez avec [Panopticlick](https://panopticlick.eff.org/).
-4. **Analyser les risques** 📊 : Probabilité x Impact (utilisez [ce calculateur simple](https://www.riskwatch.com/risk-matrix)).
-5. **Appliquer des contre-mesures** 🛠️ : Isolation + anonymisation.
+- **[r/opsec (Reddit)](https://www.reddit.com/r/opsec/)** 🟢 **Actif**  
+  Communauté principale OPSEC (100k+ membres).  
+  Discussions sur fuites, outils et cas réels.
 
-**Principes d'Or** 💎 :
-- **Compartmentalisation** : Séparez enquêtes et vie privée (un appareil dédié).
-- **Anonymisation** : Masquez tout ce qui trace.
-- **Blend In** : Imitez un utilisateur lambda ([guide EFF](https://ssd.eff.org/)).
+- **[OPSEC Discord](https://disboard.org/en/servers/tag/opsec)** 🟢 **Actif**  
+  Serveur dédié à privacy, ethical hacking et Linux-first OPSEC.  
+  Partage de ressources et bots.
 
----
+- **[OffSec Discord](https://discord.com/invite/offsec)** 🟢 **Actif**  
+  Communauté Offensive Security pour OPSEC en pentesting.  
+  85k+ membres, échanges pros.
 
-## 🛠️ **3. Meilleures Pratiques et Outils**
-### a. **Configuration de l'Environnement** 💻
-- **Machine Virtuelle (VM)** : Isolez avec [VirtualBox](https://www.virtualbox.org/) ou [VMware](https://www.vmware.com/). Pour l'extrême : [TAILS OS](https://tails.net/) (bootable USB, amnésique).
-- **Chiffrement** 🔐 : [VeraCrypt](https://www.veracrypt.fr/) pour disques cachés ; activez [FileVault](https://support.apple.com/fr-fr/HT204837) sur Mac.
-- **Mises à Jour** 🔄 : Automatisez avec [WSUS Offline](https://wsusoffline.net/) (Windows).
+- **[Flare Academy Discord](https://flare.io/glossary/opsec-training/)** 🟢 **Actif**  
+  Communauté pour trainings OPSEC et threat intel.
 
-**Ressource** : [Checklist VM OPSEC](https://www.tracelabs.org/initiatives/osint-vm).
-
-### b. **Navigation et Browser** 🌐
-- **Browsers Sécurisés** : [Firefox](https://www.mozilla.org/fr/firefox/new/) en mode privé ou [Brave](https://brave.com/) (bloque pubs/trackers).
-- **Extensions Essentielles** 🛠️ :
-  | Extension | But | Lien |
-  |-----------|-----|------|
-  | [HTTPS Everywhere](https://www.eff.org/https-everywhere) | Force HTTPS | EFF |
-  | [uBlock Origin](https://ublockorigin.com/) | Bloque trackers/WebRTC | GitHub |
-  | [Privacy Badger](https://privacybadger.org/) | Anti-tracking auto | EFF |
-  | [CanvasBlocker](https://add0n.com/canvasblocker.html) | Anti-fingerprinting | Add0n |
-  | [User-Agent Switcher](https://addons.mozilla.org/fr/firefox/addon/user-agent-string-switcher/) | Change profil | Mozilla |
-
-- **Test Empreinte** : [AmIUnique](https://amiunique.org/) ou [BrowserLeaks](https://browserleaks.com/).
-
-**Tip** : Désactivez JS via [NoScript](https://noscript.net/) pour sites suspects.
-
-### c. **Masquage IP et Réseau** 🌍
-- **VPN Premium** : [Mullvad](https://mullvad.net/) (paiement crypto, no-logs) ou [ProtonVPN](https://protonvpn.com/).
-- **Tor** 🌀 : [Tor Browser](https://www.torproject.org/download/) pour .onion ; guide [ici](https://www.torproject.org/).
-- **Proxy** : [Bright Data](https://brightdata.com/) pour tâches ciblées.
-
-**Ressource** : [Comparatif VPN OPSEC](https://www.privacyguides.org/en/vpn/).
-
-### d. **Comptes et Identités** 👤
-- **Sock Puppets** : Personas via [Fake Name Generator](https://www.fakenamegenerator.com/) + photos [ThisPersonDoesNotExist](https://thispersondoesnotexist.com/).
-- **Emails Jetables** : [ProtonMail](https://proton.me/mail) (encrypté) ou [Temp Mail](https://temp-mail.org/).
-- **Numéros Virtuels** : [SMS-Activate](https://sms-activate.org/) pour 2FA.
-
-**Outil** : [KeePassXC](https://keepassxc.org/) pour mots de passe.
-
-### e. **Recherche et Sources** 🔍
-- **Moteurs** : [DuckDuckGo](https://duckduckgo.com/) ou [Searx](https://searx.space/).
-- **Outils Silencieux** : [Sherlock](https://github.com/sherlock-project/sherlock) pour usernames (local).
-- **Métadonnées** : Nettoyez avec [ExifTool](https://exiftool.org/).
-
-**Ressource** : [OSINT Framework Tree](https://osintframework.com/tree.html).
-
-### f. **Communication** 📱
-- **Encrypté** : [Signal](https://signal.org/) pour messagerie ; [PGP](https://www.openpgp.org/) pour emails.
-- **Évitez** : Slack/Teams sans E2EE.
+- **[Qubes OS Forum](https://forum.qubes-os.org/t/rate-my-opsec/17871)** 🟠 **Peu actif**  
+  Discussions OPSEC avec VMs isolées.
 
 ---
+<br>
 
-## ⚠️ **4. Exemples de Fautes et Leçons**
-| Cas | Erreur | Leçon | Lien |
-|-----|--------|-------|------|
-| **Ross Ulbricht (Silk Road)** | Réutilisation emails/aliases | Compartiment strict | [Article Wired](https://www.wired.com/2015/03/silk-road/) |
-| **Alexandre Cazes (AlphaBay)** | Patterns comportementaux | Multi-couches anonymat | [BBC Report](https://www.bbc.com/news/technology-40747881) |
-| **Général OSINT** | Fuite IP en recherche | Toujours VPN+VM | [EFF Surveillance](https://ssd.eff.org/) |
+<a id="opsec-formations"></a>
+# 🛡️ OPSEC Formations
+<br>
 
-**Tip** : Étudiez [ce cas d'école](https://www.bellingcat.com/resources/2021/01/11/osint-opsec-guide/).
-
+<a id="formations-gratuites"></a>
+## 🎓 Formations gratuites
+- [OPSEC Awareness (CDSE)](https://www.cdse.edu/Training/Operations-Security/) – Cours web-based pour bases OPSEC.
+- [NITTF OPSEC Training](https://www.dni.gov/index.php/ncsc-how-we-work/ncsc-nittf/ncsc-nittf-training) – Formation nationale gratuite.
+- [Red Team OPSEC (TryHackMe)](https://tryhackme.com/room/opsec) – Exercices interactifs.
+- [Flare Academy Webinars](https://flare.io/glossary/opsec-training/) – Webinars gratuits sur OPSEC.
+- [Surveillance Self-Defense (EFF)](https://ssd.eff.org/) – Guide et modules gratuits.
+- [ICS OPSEC (CISA)](https://www.cisa.gov/resources-tools/programs/ics-training-available-through-cisa) – OPSEC pour systèmes critiques.
+- [OPSEC Academy](https://opsecacademy.org/) – Éducation décentralisée et sécurisée sur OPSEC.
 ---
+<br>
 
-## ❌ **5. Erreurs Courantes à Éviter**
-- 🚫 Appareils personnels pour enquêtes.
-- 🚫 Oubli EXIF ([testez ici](https://exifdata.com/)).
-- 🚫 Réutilisation d'identifiants.
-- 🚫 Ignorer timing/fingerprinting.
-- 🚫 Partage OPSEC sur Twitter (même anonyme !).
-
-**Ressource** : [Top 10 Erreurs OPSEC](https://www.dutchosintguy.com/post/basic-opsec-tips-tricks-for-osint-researchers).
-
+<a id="formations-payantes"></a>
+## 💼 Formations / certifications payantes
+- [OPSEC Certified Professional (OCP)](https://opsecsociety.org/certifications/) – Certification pro OPSEC.
+- [Certified OPSEC Professional (COPSECP)](https://niccs.cisa.gov/training/catalog/tonex/certified-operational-security-opsec-professional-copsecp) – Formation + certif.
+- [OPS101: OpSec Fundamentals](https://www.securitycompass.com/training_courses/ops101-opsec-fundamentals/) – Bases pour déploiement.
+- [OpSec - Privacy for Security Pros (Just Hacking)](https://www.justhacking.com/course/opsec-privacy-for-security-professionals/) – Cours à prix libre (min. 10$).
+- [PEN-200: OSCP+ (OffSec)](https://www.offsec.com/courses/pen-200/) – Pentesting avec OPSEC.
+- [Operational Security and Privacy (My OSINT Training)](https://www.myosint.training/courses/opsec-and-privacy) – 2h sur configs personnalisées.
 ---
+<br>
 
-## 🕵️‍♂️ **6. Cas Pratiques**
-Cette section explore des cas réels d'échecs et de succès en OPSEC lors d'enquêtes OSINT. Elle illustre comment des failles ont conduit à des arrestations ou des expositions, et comment un bon OPSEC a permis des victoires décisives. Les leçons sont tirées d'analyses expertes pour renforcer votre pratique.
-
-### a. **Cas d'Échecs OPSEC : Leçons d'Exposition**
-Ces exemples montrent comment des négligences ont permis à des enquêteurs OSINT de démasquer des acteurs malveillants via des traces numériques publiques.
-
-| Cas | Description Brève | Failles OPSEC | Leçon pour OSINT | Source |
-|-----|-------------------|---------------|------------------|--------|
-| **Ross Ulbricht (Dread Pirate Roberts, Silk Road, 2013)** | Fondateur du marketplace dark web arrêté après liaison d'emails personnels (rossulbricht@gmail.com) et posts forums avec son pseudonyme via Google+ et StackOverflow. | Réutilisation d'emails/aliases, style d'écriture unique, IP traces. | Compartimenter identités : évitez liens entre comptes anonymes et publics ; testez pour corrélation OSINT. | [Article Wired](https://www.wired.com/2015/03/silk-road/) |
-| **Alexandre Cazes (AlphaBay, 2017)** | Admin arrêté via en-têtes emails (Pimp_Alex_91@hotmail.com) liés à posts forums de 2008 ; patterns comportementaux malgré Tor. | Réutilisation d'emails, timing opérationnel, anonymat insuffisant. | Masquez métadonnées et variez comportements ; combinez Tor/VPN pour éviter fingerprinting. | [BBC Report](https://www.bbc.com/news/technology-40747881) |
-| **Emil Babadjov (Vendor AlphaBay)** | Vendeur identifié via email lié à Coinbase/Facebook (alias inversé "Lime Vojdabab"). | Liens financiers/sociaux non isolés. | Séparez finances et enquêtes ; utilisez wallets anonymes. | [Darknet Markets](https://www.vice.com/en/article/alphabay-dark-web-marketplace-emails) |
-| **Jose Robert Porras (Vendor AlphaBay)** | Photo main avec marijuana : empreintes digitales extraites et matchées aux records. | Métadonnées/images non nettoyées. | Strippez EXIF/forensics visuels avant partage ; testez images. | [Vice Article](https://www.vice.com/en/article/alphabay-dark-web-marketplace-photos) |
-| **APT1 (Groupe Hacker Chinois)** | Identifiés via nicknames récurrents ("Ugly Gorilla"), timestamps Beijing, IP et breaches. | Patterns naming/timing constants. | Variez alias et horaires ; analysez vos propres traces OSINT. | [Mandiant Report](https://www.mandiant.com/resources/apt1-exposing-one-of-chinas-cyber-espionage-units) |
-
-### b. **Cas de Succès OPSEC : Victoires Grâce à l'Anonymat**
-Ces enquêtes montrent comment un OPSEC solide a permis de collecter des intel sans exposition, souvent en exploitant les failles des cibles.
-
-| Cas | Description Brève | Rôle OPSEC | Leçon pour OSINT | Source |
-|-----|-------------------|------------|------------------|--------|
-| **Tracking ISIS Fighters (2015)** | Photos/vidéos sociales géolocalisées (métadonnées, landmarks) pour identifier camp d'entraînement près de Raqqa ; partagé avec agences. | Anonymat via proxies, scrub de métadonnées sur données collectées. | Utilisez outils forensics (Google Earth) sans traces ; compartimentez pour éviter riposte. | [Bellingcat ISIS](https://www.bellingcat.com/news/mena/2015/06/28/the-isis-guide-to-building-an-effective-islamic-state-a-brief-history/) |
-| **Exposing Poachers (Afrique du Sud)** | Posts Instagram géotaggés analysés pour traquer braconniers à Kruger ; arrestations via network analysis. | VM isolée pour scraping ; pas de liens personnels. | Bloquez géotags/cookies lors de collectes ; collaborez encrypté. | [Wildlife Crime Tech](https://www.wcs.org/our-work/wildlife-crime/wildlife-crime-technology) |
-| **Identifying Russian Soldiers (Ukraine, 2014, Bellingcat)** | Selfies avec insignes/landmarks croisés avec satellite imagery ; preuve d'intervention russe. | Tor/VPN pour recherches ; crowdsourcing anonyme. | Crowdsourcéz sans exposer sources ; validez via multiples OSINT layers. | [Bellingcat MH17](https://www.bellingcat.com/news/uk-and-europe/2016/02/17/flight-mh17-downed-by-missile-fired-from-a-53rd-anti-aircraft-missile-brigade-buk-tel-9n316-rocket/) |
-| **Unmasking Child Trafficking Network (Thorn)** | Scraping ads sociales pour patterns ; facial rec + missing DB pour rescues (centaines d'enfants). | Burner accounts, encryption pour data ; pas de traces vers enquêteurs. | Agrégez data sans patterns personnels ; priorisez E2EE pour collab. | [Thorn Impact](https://www.thorn.org/impact/) |
-
-**Tip Global** : Dans ces cas, les échecs des cibles (métadonnées, réutilisation) ont été exploités via OSINT. Inversez : appliquez ces leçons pour vous protéger. Étudiez [Bellingcat's Guide](https://www.bellingcat.com/resources/how-tos/2021/01/11/osint-opsec-guide/).
-
+<a id="challenges"></a>
+## 🕹️ Challenges
+- [TryHackMe OPSEC Room](https://tryhackme.com/room/opsec) – Défis Red Team.
+- [EFF SSD Scenarios](https://ssd.eff.org/module-categories/tool-guides) – Simulations surveillance.
+- [Qubes OPSEC Rating](https://forum.qubes-os.org/t/rate-my-opsec/17871) – Auto-évaluation VM.
 ---
+<br>
 
-## 🏋️‍♂️ **7. Exercices Pratiques OPSEC**
-Mettez en pratique ces exercices progressifs pour tester et renforcer votre OPSEC. Commencez par les basiques et montez en complexité. Chaque exercice inclut des étapes, outils et vérifications. Temps estimé : 30-60 min par exercice.
+<a id="opsec-jobs"></a>
+# 🛡️ OPSEC Jobs
+<br>
 
-### **Exercice 1 : Audit de Votre Empreinte Navigateur (Niveau Débutant) 🔍**
-**Objectif** : Identifier et réduire votre fingerprinting.
-1. Ouvrez un navigateur incognito et visitez [AmIUnique](https://amiunique.org/).
-2. Notez votre score d'unicité (IP, User-Agent, Canvas, etc.).
-3. Installez [uBlock Origin](https://ublockorigin.com/) et [CanvasBlocker](https://add0n.com/canvasblocker.html).
-4. Retestez : Visez < 1% d'unicité.
-**Vérification** : Comparez avant/après. Si >5%, ajoutez [User-Agent Switcher](https://addons.mozilla.org/fr/firefox/addon/user-agent-string-switcher/).
-**Ressource** : [Guide EFF Fingerprinting](https://ssd.eff.org/module/categories-fingerprinting).
+<a id="entreprises-francaises"></a>
+## 🇫🇷 Entreprises françaises spécialisées en OPSEC
+Voici une liste d’entreprises françaises axées sur OPSEC, privacy et cybersécurité.
 
-### **Exercice 2 : Création d'un Sock Puppet Anonyme (Niveau Débutant) 👤**
-**Objectif** : Générer une identité fictive sans traces.
-1. Utilisez [Fake Name Generator](https://www.fakenamegenerator.com/) pour nom, bio, adresse.
-2. Créez un email via [Temp Mail](https://temp-mail.org/).
-3. Générez une photo avec [ThisPersonDoesNotExist](https://thispersondoesnotexist.com/).
-4. Créez un compte Twitter/Reddit avec VPN activé (ex. Mullvad).
-5. Postez un tweet neutre et vérifiez via [Sherlock](https://github.com/sherlock-project/sherlock) si liens vers votre identité réelle.
-**Vérification** : Recherchez l'email/nom sur Google – zéro résultats liés à vous.
-**Ressource** : [Sock Puppet Guide](https://www.bellingcat.com/resources/how-tos/2021/01/11/osint-opsec-guide/).
-
-### **Exercice 3 : Nettoyage de Métadonnées d'une Image (Niveau Intermédiaire) 📸**
-**Objectif** : Éliminer les traces EXIF pour éviter géolocalisation.
-1. Téléchargez une photo personnelle (ex. selfie).
-2. Vérifiez métadonnées avec [Jeffrey's Image Metadata Viewer](https://exif.regex.info/exif.cgi).
-3. Utilisez [ExifTool](https://exiftool.org/) (installez via commande) : `exiftool -all= image.jpg`.
-4. Re-testez : Vérifiez localisation/timestamp supprimés.
-5. Uploadez anonymement sur Imgur et vérifiez via [InVID Verification](https://www.invid-project.eu/tools-and-services/invid-verification/).
-**Vérification** : Aucune info sensible visible.
-**Ressource** : [ExifTool Tutorial](https://www.sans.org/blog/metadata-extraction-with-exiftool/).
-
-### **Exercice 4 : Simulation d'Enquête Anonyme avec VM (Niveau Intermédiaire) 💻**
-**Objectif** : Isoler une recherche OSINT.
-1. Installez [VirtualBox](https://www.virtualbox.org/) et créez une VM Ubuntu.
-2. Installez Tor Browser dans la VM.
-3. Recherchez un sujet sensible (ex. "dark web forums") via Tor.
-4. Notez résultats dans un fichier encrypté avec [VeraCrypt](https://www.veracrypt.fr/).
-5. Fermez VM et vérifiez host machine (pas de logs).
-**Vérification** : Testez IP sur [ipleak.net](https://ipleak.net/) avant/après – aucune fuite.
-**Ressource** : [TraceLabs VM Setup](https://www.tracelabs.org/initiatives/osint-vm).
-
-### **Exercice 5 : Modèle de Menace Personnel (Niveau Avancé) 📊**
-**Objectif** : Cartographier vos risques.
-1. Listez vos actifs (appareils, comptes, habitudes) dans un doc encrypté.
-2. Identifiez menaces (ex. "collègue curieux" ou "hacker ciblé").
-3. Scorez risques (1-10) avec [ce matrice](https://www.riskwatch.com/risk-matrix).
-4. Priorisez 3 contre-mesures (ex. 2FA partout, VPN quotidien).
-5. Revoyez dans 1 mois.
-**Vérification** : Document mis à jour, actions implémentées.
-**Ressource** : [MITRE Threat Modeling](https://attack.mitre.org/resources/threat-modeling/).
-
-**Conseil Général** : Faites ces exercices en solo, puis partagez anonymement sur [OSINTFR](https://discord.com/invite/dWY9sWFKYD) pour feedback. Temps total : 3-5h.
-
+- **OpSec Security France** – Solutions anti-contrefaçon et protection en ligne. [Site](https://www.opsecsecurity.com/)
+- **ProtonVPN (Suisse/FR ops)** – VPN no-logs pour OPSEC. [Site](https://protonvpn.com/)
+- **Mullvad (EU/FR)** – VPN anonyme. [Site](https://mullvad.net/)
 ---
+<br>
 
-## 🎓 **8. Ressources Avancées et Formation**
-- **Guides Gratuits** : [EFF Surveillance Self-Defense](https://ssd.eff.org/) | [Bellingcat OPSEC](https://www.bellingcat.com/resources/how-tos/2021/01/11/osint-opsec-guide/).
-- **Cours** : [SANS OPSEC](https://www.sans.org/cyber-security-courses/practical-open-source-intelligence/) (payant).
-- **Communautés** : Rejoignez [OSINTFR Discord](https://discord.com/invite/dWY9sWFKYD) pour tips.
-- **Outils Gratuits** : [OPSEC Cheat Sheet](https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/OSINT-for-OPSEC-%28Operational-security%29).
-
+<a id="entreprises-internationales"></a>
+## 🌍 Entreprises internationales spécialisées en OPSEC
+- **OpSec Security (Global)** – Protection intégrée pour brands. [Site](https://www.opsecsecurity.com/)
+- **EFF (US)** – Advocacy et outils OPSEC. [Site](https://www.eff.org/)
+- **Tor Project (Global)** – Anonymat réseau. [Site](https://www.torproject.org/)
 ---
+<br>
 
-## 📅 **Conclusion et Mise à Jour**
-L'OPSEC est une **discipline vivante** : testez mensuellement votre setup avec [ce checklist](https://www.tracelabs.org/initiatives/osint-vm). En novembre 2025, avec l'essor de l'IA (fingerprinting avancé), priorisez l'apprentissage continu.
+<a id="recherche-emploi"></a>
+## 🏢 Recherche Emploi
+- [Indeed OPSEC Jobs](https://www.indeed.com/q-opsec-jobs.html)
+- [LinkedIn OPSEC Security](https://www.linkedin.com/jobs/opsec-security-jobs-worldwide)
+- [ZipRecruiter OPSEC](https://www.ziprecruiter.com/Jobs/Opsec)
+- [Canadian Cybersecurity Jobs](https://canadiancybersecurityjobs.com/)
+---
+<br><br>
 
-**Restez vigilant** 🕵️‍♂️ : Votre sécurité dépend de votre paranoïa saine. Contributions bienvenues ! [Forkez ce repo](https://github.com/votre-repo) pour updates.
+<a id="bonus"></a>
+# 🎖️ Bonus
 
-> 📌 *Dernière mise à jour : 08 novembre 2025*  
-> _Sources : EFF, Dutch OSINT Guy, et plus._
+## OPSEC Roadmap Visual
+
+Utilisez [MindMeister](https://www.mindmeister.com/) pour mapper le [Crypto-OpSec Roadmap](https://github.com/OffcierCia/Crypto-OpSec-SelfGuard-RoadMap) : Créez des mind maps collaboratives pour visualiser menaces, contre-mesures et flux (drag-and-drop, notes, liens sécurisés, GDPR-compliant).
+
+![OPSEC MindMap Example](picture/opsec_roadmap.jpg) <!-- À ajouter -->
+Source : Adapté de GitHub Roadmap via MindMeister.
+---
+<br><br>
+
+# Licence
+
+OPSEC-HUB-FR has been released under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" style="color: red;">CC BY-NC-SA 4.0</a> :<br>
+
+You can use it for research and training purposes; however, commercialization is not authorized.<br>
+All documents are available in open source access:<br><br>
+
+<br><br>
+
+<p align="center">
+<img src="picture/hermes.jpg" alt="Hermes" width="300" height="auto"><br> <!-- Réutilisé ou adapter -->
+<b>HELIOS</b>
+</p>
+
+> 📌 *Dernière mise à jour : Novembre 2025*  
+> _Contributions bienvenues via Pull Request._
