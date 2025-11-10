@@ -159,7 +159,7 @@
 - [OpSec Techniques](https://opsectechniques.com/) – Techniques avancées (contenu limité, focus sur cloaking).
 - [Basic OPSEC Tips for OSINT](https://www.osintcurio.us/2019/04/18/basic-opsec-tips-and-tricks-for-osint-researchers/index.htm) – Conseils pour chercheurs.
 - [Parlons d'OPSEC (Reddit)](https://www.reddit.com/r/hacking/comments/vj0zb0/lets_talk_about_opsec/?tl=fr) – Discussion sur l'OPSEC comme minimisation des ressources et risques.
-- [Conditions préalables de l'OPSEC pour détecter les logiciels malveillants (Infuse Quest)](https://infuse.quest/fr/learning-path/2/module-2/) – Configuration d'un environnement sûr pour l'analyse de malwares.
+- [Conditions préalables de l'OPSEC (Infuse Quest)](https://infuse.quest/fr/learning-path/2/module-2/) – Configuration d'un environnement sûr pour l'analyse de malwares.
 ---
 <br>
 
