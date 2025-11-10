@@ -53,8 +53,6 @@
 ## ✍️ Articles
 - [OpSec 101 : Guide pour débutants](https://opsec101.org/) – Introduction rationnelle au processus OPSEC.
 - [OPSEC in OSINT: Protecting Yourself While Investigating](https://sosintel.co.uk/opsec-in-osint-protecting-yourself-while-investigating/) – Intégration OPSEC et OSINT.
-- [You Leak More Data Than You Think: OPSEC Guide](https://www.reddit.com/r/OSINT/comments/1iij7su/you_leak_more_data_than_you_think_opsec_guide_to/) – Fuites courantes et conseils.
-- [Most OPSEC Advice is Surface Level: Deeper Guide](https://www.reddit.com/r/opsec/comments/1ij8nyn/most_opsec_advice_is_surface_level_heres_a_guide/) – Au-delà des bases.
 - [OpSec Oversights: How Cybercrooks Get Caught](https://www.theregister.com/2025/07/01/terrible_tales_of_opsec_oversights/) – Échecs célèbres.
 - [What Were Ross Ulbricht's Biggest Mistakes?](https://plasbit.com/blog/what-were-ross-ulbricht-biggest-mistakes) – Analyse des erreurs de Silk Road.
 - [Proactive Paranoia: AlphaBay Case](https://reallifemag.com/proactive-paranoia/) – Leçons d'Alexandre Cazes.
