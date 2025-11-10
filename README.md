@@ -183,13 +183,10 @@
 <a id="communautes-fr"></a>
 ## 🇫🇷 Communautés FR
 
-- **[r/opsec (Reddit FR threads)](https://www.reddit.com/r/opsec/search/?q=french)** 🟢 **Actif**  
-  Discussions OPSEC en français sur Reddit.  
-  Échanges sur outils et menaces locales.
-
-- **[Discord OPSEC FR (via Infosec FR)](https://discord.gg/search?q=opsec+fr)** 🟢 **Actif**  
-  Serveurs francophones sur privacy et OPSEC.  
-  Entraide pour configs VPN/VM.
+- **[Discord OPSEC FR (Viziora)](https://disboard.org/fr/server/1435275464707932401)**
+🟢 **Actif**  
+  Discussions OPSEC en français sur Discord.  
+  Échanges sur outils et menaces.
 
 ---
 <br>
