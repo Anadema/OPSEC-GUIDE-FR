@@ -298,14 +298,14 @@ Ce processus est itératif et doit être revu régulièrement, car les menaces �
 
 Voici trois illustrations pour visualiser le processus. Intégrez les liens des images ci-dessous.
 
-1. **Diagramme du Flux OPSEC Complet** : Une vue d'ensemble du cycle itératif.  
+1. **Diagramme du Flux OPSEC Complet** : Une vue d'ensemble du cycle de décision.  
    ![Diagramme du Flux OPSEC Complet](picture/opsec_flow_1.jpg) <!-- Lien à ajouter ici – e.g., flowchart OPSEC cycle -->
 
-2. **Identification des Informations Critiques** : Schéma montrant la liste CIL/CIIL.  
-   ![Identification des Informations Critiques](picture/opsec_flow_2.jpg) <!-- Lien à ajouter ici – e.g., diagram critical info OPSEC -->
+2. **Identification des Informations Critiques** : Schéma public/private.  
+   ![Identification des Informations Critiques](picture/opsec_flow_3.jpg) <!-- Lien à ajouter ici – e.g., diagram critical info OPSEC -->
 
 3. **Matrice d'Évaluation des Risques** : Visualisation 5x5 pour prioriser.  
-   ![Matrice d'Évaluation des Risques](picture/opsec_flow_3.jpg) <!-- Lien à ajouter ici – e.g., risk matrix OPSEC -->
+   ![Matrice d'Évaluation des Risques](picture/opsec_flow_2.jpg) <!-- Lien à ajouter ici – e.g., risk matrix OPSEC -->
 ---
 <br><br>
 
