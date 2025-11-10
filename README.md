@@ -116,7 +116,7 @@
 **Navigation & Browser :**
 - [Brave Browser](https://brave.com/) – Bloque trackers par défaut.
 - [Tor Browser](https://www.torproject.org/download/) – Anonymat via Tor.
-- Extensions : [HTTPS Everywhere (EFF)](https://www.eff.org/https-everywhere), [uBlock Origin](https://github.com/gorhill/uBlock), [Privacy Badger (EFF)](https://privacybadger.org/), [CanvasBlocker](https://add0n.com/canvas-blocker.html), [User-Agent Switcher](https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/).
+- Extensions : [HTTPS Everywhere (EFF)](https://www.eff.org/https-everywhere), [uBlock Origin](https://github.com/gorhill/uBlock), [Privacy Badger (EFF)](https://privacybadger.org/), [User-Agent Switcher](https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/).
 - Tests : [Cover Your Tracks (Panopticlick successor)](https://coveryourtracks.eff.org/), [AmIUnique](https://amiunique.org/), [BrowserLeaks](https://browserleaks.com/).
 
 **Masquage IP :**
