@@ -183,8 +183,7 @@
 <a id="communautes-fr"></a>
 ## 🇫🇷 Communautés FR
 
-- **[Discord OPSEC FR (Viziora)](https://disboard.org/fr/server/1435275464707932401)**
-🟢 **Actif**  
+- **[Discord OPSEC FR (Viziora)](https://disboard.org/fr/server/1435275464707932401)** 🟢 **Actif**  
   Discussions OPSEC en français sur Discord.  
   Échanges sur outils et menaces.
 
@@ -206,9 +205,6 @@
   Communauté Offensive Security pour OPSEC en pentesting.  
   85k+ membres, échanges pros.
 
-- **[Flare Academy Discord](https://flare.io/glossary/opsec-training/)** 🟢 **Actif**  
-  Communauté pour trainings OPSEC et threat intel.
-
 - **[Qubes OS Forum](https://forum.qubes-os.org/t/rate-my-opsec/17871)** 🟠 **Peu actif**  
   Discussions OPSEC avec VMs isolées.
 
@@ -221,10 +217,10 @@
 
 <a id="formations-gratuites"></a>
 ## 🎓 Formations gratuites
-- [OPSEC Awareness (CDSE)](https://www.cdse.edu/Training/Operations-Security/) – Cours web-based pour bases OPSEC.
+- [Flare Academy Webinars](https://flare.io/glossary/opsec-training/) – Webinars gratuits sur OPSEC.
+- [OPSEC Awareness (CDSE)](https://www.cdse.edu/Training/Operations-Security/) – Bases OPSEC.
 - [NITTF OPSEC Training](https://www.dni.gov/index.php/ncsc-how-we-work/ncsc-nittf/ncsc-nittf-training) – Formation nationale gratuite.
 - [Red Team OPSEC (TryHackMe)](https://tryhackme.com/room/opsec) – Exercices interactifs.
-- [Flare Academy Webinars](https://flare.io/glossary/opsec-training/) – Webinars gratuits sur OPSEC.
 - [Surveillance Self-Defense (EFF)](https://ssd.eff.org/) – Guide et modules gratuits.
 - [ICS OPSEC (CISA)](https://www.cisa.gov/resources-tools/programs/ics-training-available-through-cisa) – OPSEC pour systèmes critiques.
 - [OPSEC Academy](https://opsecacademy.org/) – Éducation décentralisée et sécurisée sur OPSEC.
