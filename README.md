@@ -27,6 +27,7 @@
   - [🔧 Outils](#tools)
   - [🧰 Frameworks](#frameworks)
   - [🔍 Autres Sources](#autre-sources)
+  - [📋 Boards](#boards)
     
 - [🛡️ OPSEC Communauté](#opsec-communaute)
   - [🇫🇷  Communautés FR](#communautes-fr)
@@ -59,6 +60,9 @@
 - [What Were Ross Ulbricht's Biggest Mistakes?](https://plasbit.com/blog/what-were-ross-ulbricht-biggest-mistakes) – Analyse des erreurs de Silk Road.
 - [Proactive Paranoia: AlphaBay Case](https://reallifemag.com/proactive-paranoia/) – Leçons d'Alexandre Cazes.
 - [OPSEC Introduction (187FW)](https://www.187fw.ang.af.mil/About/OPSEC/) – Importance de l'OPSEC pour protéger les informations critiques.
+- [Qu'est-ce que la sécurité opérationnelle ? Explication de l'OPSEC (Fortinet)](https://www.fortinet.com/fr/resources/cyberglossary/operational-security) – Explication détaillée de l'OPSEC en français, processus de gestion des risques.
+- [Qu'est-ce que la sécurité opérationnelle (OPSEC) ? (Proofpoint FR)](https://www.proofpoint.com/fr/threat-reference/operational-security-opsec) – Pilier essentiel de la cybersécurité, pratiques pour empêcher les fuites d'informations sensibles.
+- [Qu'est-ce que la sécurité opérationnelle (OPSEC) (Check Point)](https://www.checkpoint.com/fr/cyber-hub/threat-prevention/what-is-soc/what-is-operational-security-opsec/) – Identification des menaces et vulnérabilités potentielles via OPSEC.
 ---
 <br>
 
@@ -154,6 +158,15 @@
 ## 🔍 Autres Sources
 - [OpSec Techniques](https://opsectechniques.com/) – Techniques avancées (contenu limité, focus sur cloaking).
 - [Basic OPSEC Tips for OSINT](https://www.osintcurio.us/2019/04/18/basic-opsec-tips-and-tricks-for-osint-researchers/index.htm) – Conseils pour chercheurs.
+- [Parlons d'OPSEC (Reddit)](https://www.reddit.com/r/hacking/comments/vj0zb0/lets_talk_about_opsec/?tl=fr) – Discussion sur l'OPSEC comme minimisation des ressources et risques.
+- [Conditions préalables de l'OPSEC pour détecter les logiciels malveillants (Infuse Quest)](https://infuse.quest/fr/learning-path/2/module-2/) – Configuration d'un environnement sûr pour l'analyse de malwares.
+---
+<br>
+
+<a id="boards"></a>
+## 📋 Boards
+- [OPSEC Dashboard (Start.me)](https://start.me/p/rxE68b/opsec?locale=fr) – Compilation de ressources OPSEC en français, avec liens vers articles, outils et guides pratiques.
+- [OPSEC Online Privacy Dashboard (Start.me)](https://start.me/p/BnrKpe/02-opsec-online-privacy?locale=fr) – Tableau de bord sur la privacy en ligne et OPSEC, incluant des ressources pour la protection numérique quotidienne.
 ---
 <br>
 
